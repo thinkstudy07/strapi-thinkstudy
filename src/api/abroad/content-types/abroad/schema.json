@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abroads",
+  "info": {
+    "singularName": "abroad",
+    "pluralName": "abroads",
+    "displayName": "abroad"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}
