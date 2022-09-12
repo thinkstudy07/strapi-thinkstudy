@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_abroad_overview_util_abroad_overview_utils",
+  "info": {
+    "displayName": "abroadOverviewUtil"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "abroads",
+  "collectionName": "homes",
   "info": {
-    "singularName": "abroad",
-    "pluralName": "abroads",
-    "displayName": "Abroad"
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home"
   },
   "options": {
     "draftAndPublish": true

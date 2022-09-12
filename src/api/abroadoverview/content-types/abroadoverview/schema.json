@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abroadoverviews",
+  "info": {
+    "singularName": "abroadoverview",
+    "pluralName": "abroadoverviews",
+    "displayName": "abroadoverview"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "coverimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

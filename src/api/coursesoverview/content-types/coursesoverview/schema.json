@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coursesoverviews",
+  "info": {
+    "singularName": "coursesoverview",
+    "pluralName": "coursesoverviews",
+    "displayName": "coursesoverview",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "coverImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "abroads",
+  "collectionName": "courses",
   "info": {
-    "singularName": "abroad",
-    "pluralName": "abroads",
-    "displayName": "Abroad"
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "Course"
   },
   "options": {
     "draftAndPublish": true

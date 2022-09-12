@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_courses_simple_overview_utils_courses_simple_overview_utils",
+  "info": {
+    "displayName": "coursesSimpleOverviewUtils"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
