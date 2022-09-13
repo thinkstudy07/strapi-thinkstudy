@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "expertitems",
+  "info": {
+    "singularName": "expertitem",
+    "pluralName": "expertitems",
+    "displayName": "expertitem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "coverimg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

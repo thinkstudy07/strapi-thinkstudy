@@ -42,20 +42,10 @@
       "repeatable": false,
       "component": "intro-head.intro-head"
     },
-    "storiesSliderItem": {
-      "type": "component",
-      "repeatable": true,
-      "component": "stories-slider.stories-slider"
-    },
     "educationExpertUtil": {
       "type": "component",
       "repeatable": false,
       "component": "intro-head.intro-head"
-    },
-    "educationExpertItem": {
-      "type": "component",
-      "repeatable": true,
-      "component": "expert-suggestion.expert-suggestion"
     },
     "BlogOverviewUtil": {
       "type": "component",

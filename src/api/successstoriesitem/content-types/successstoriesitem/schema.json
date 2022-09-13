@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "successstoriesitems",
+  "info": {
+    "singularName": "successstoriesitem",
+    "pluralName": "successstoriesitems",
+    "displayName": "successstoriesitem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "authorimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "authorname": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}
