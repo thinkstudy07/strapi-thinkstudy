@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_stories_slider_stories_sliders",
+  "info": {
+    "displayName": "storiesSlider"
+  },
+  "options": {},
+  "attributes": {
+    "review": {
+      "type": "text"
+    },
+    "reviewerName": {
+      "type": "string"
+    },
+    "Location": {
+      "type": "string"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

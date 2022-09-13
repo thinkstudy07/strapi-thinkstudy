@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_expert_suggestion_expert_suggestions",
+  "info": {
+    "displayName": "expertSuggestion"
+  },
+  "options": {},
+  "attributes": {
+    "coverImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

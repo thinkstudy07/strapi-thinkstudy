@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "home"
+    "displayName": "home",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,51 @@
       "type": "component",
       "repeatable": false,
       "component": "topbanner.topbanner"
+    },
+    "shortintroItem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shortintro.shortintro"
+    },
+    "notchbannerItem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "notchbanner.notchbanner"
+    },
+    "abroadOverviewUtil": {
+      "type": "component",
+      "repeatable": false,
+      "component": "intro-head.intro-head"
+    },
+    "courseUtils": {
+      "type": "component",
+      "repeatable": false,
+      "component": "intro-head.intro-head"
+    },
+    "storiesUtil": {
+      "type": "component",
+      "repeatable": false,
+      "component": "intro-head.intro-head"
+    },
+    "storiesSliderItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stories-slider.stories-slider"
+    },
+    "educationExpertUtil": {
+      "type": "component",
+      "repeatable": false,
+      "component": "intro-head.intro-head"
+    },
+    "educationExpertItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "expert-suggestion.expert-suggestion"
+    },
+    "BlogOverviewUtil": {
+      "type": "component",
+      "repeatable": false,
+      "component": "intro-head.intro-head"
     }
   }
 }
