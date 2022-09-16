@@ -1,8 +1,0 @@
-{
-    "provider": "cloudinary",
-    "providerOptions": {
-        "cloud_name": "dhbpi3mo1",
-        "api_key": "546729143534343",
-        "api_secret": "cLjM-0JBISRsZW5SmNYEs5SBbuM"
-    }
-}
