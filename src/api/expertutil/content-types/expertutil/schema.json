@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "expertutils",
+  "info": {
+    "singularName": "expertutil",
+    "pluralName": "expertutils",
+    "displayName": "expertutil"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "expertUtil": {
+      "type": "component",
+      "repeatable": false,
+      "component": "intro-head.intro-head"
+    }
+  }
+}

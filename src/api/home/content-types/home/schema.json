@@ -26,31 +26,6 @@
       "type": "component",
       "repeatable": false,
       "component": "notchbanner.notchbanner"
-    },
-    "abroadOverviewUtil": {
-      "type": "component",
-      "repeatable": false,
-      "component": "intro-head.intro-head"
-    },
-    "courseUtils": {
-      "type": "component",
-      "repeatable": false,
-      "component": "intro-head.intro-head"
-    },
-    "storiesUtil": {
-      "type": "component",
-      "repeatable": false,
-      "component": "intro-head.intro-head"
-    },
-    "educationExpertUtil": {
-      "type": "component",
-      "repeatable": false,
-      "component": "intro-head.intro-head"
-    },
-    "BlogOverviewUtil": {
-      "type": "component",
-      "repeatable": false,
-      "component": "intro-head.intro-head"
     }
   }
 }

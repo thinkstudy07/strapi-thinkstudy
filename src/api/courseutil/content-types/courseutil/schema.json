@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "aboutuses",
+  "collectionName": "courseutils",
   "info": {
-    "singularName": "aboutus",
-    "pluralName": "aboutuses",
-    "displayName": "Aboutus",
+    "singularName": "courseutil",
+    "pluralName": "courseutils",
+    "displayName": "courseutil",
     "description": ""
   },
   "options": {
@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "topbannerItem": {
+    "Courseutils": {
       "type": "component",
       "repeatable": false,
-      "component": "topbanner.topbanner"
+      "component": "intro-head.intro-head"
     }
   }
 }

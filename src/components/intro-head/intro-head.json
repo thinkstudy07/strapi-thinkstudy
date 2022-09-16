@@ -1,7 +1,8 @@
 {
   "collectionName": "components_intro_head_intro_heads",
   "info": {
-    "displayName": "introHead"
+    "displayName": "introHead",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,7 +10,7 @@
       "type": "string"
     },
     "description": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }

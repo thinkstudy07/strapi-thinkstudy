@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "blogutils",
+  "info": {
+    "singularName": "blogutil",
+    "pluralName": "blogutils",
+    "displayName": "blogutil"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blogutil": {
+      "type": "component",
+      "repeatable": false,
+      "component": "intro-head.intro-head"
+    }
+  }
+}
