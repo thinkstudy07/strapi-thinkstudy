@@ -21,9 +21,6 @@
     "email": {
       "type": "string"
     },
-    "mobilenumber": {
-      "type": "integer"
-    },
     "consellingValue": {
       "type": "string"
     },
@@ -38,6 +35,9 @@
     },
     "offermessages": {
       "type": "boolean"
+    },
+    "mobilenumber": {
+      "type": "string"
     }
   }
 }
