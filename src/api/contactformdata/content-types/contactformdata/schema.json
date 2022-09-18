@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contactformdatas",
+  "info": {
+    "singularName": "contactformdata",
+    "pluralName": "contactformdatas",
+    "displayName": "contactformdata",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "mobilenumber": {
+      "type": "integer"
+    },
+    "consellingValue": {
+      "type": "string"
+    },
+    "StudyLevel": {
+      "type": "string"
+    },
+    "Policy": {
+      "type": "boolean"
+    },
+    "contactEnquiry": {
+      "type": "boolean"
+    },
+    "offermessages": {
+      "type": "boolean"
+    }
+  }
+}
