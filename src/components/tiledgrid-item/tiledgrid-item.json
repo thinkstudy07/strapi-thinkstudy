@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_tiledgrid_item_tiledgrid_items",
+  "info": {
+    "displayName": "tiledgridItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

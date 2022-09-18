@@ -24,7 +24,7 @@
     },
     "tiledGrid": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "tiled-grid.tiled-grid"
     }
   }
