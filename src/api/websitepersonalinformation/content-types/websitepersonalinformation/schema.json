@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "websitepersonalinformations",
+  "info": {
+    "singularName": "websitepersonalinformation",
+    "pluralName": "websitepersonalinformations",
+    "displayName": "websitepersonalinformation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Mobilenumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "sociallinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-links.social-links"
+    }
+  }
+}
