@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ourteams",
+  "info": {
+    "singularName": "ourteam",
+    "pluralName": "ourteams",
+    "displayName": "ourteam"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "memberimage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

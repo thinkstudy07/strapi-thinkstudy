@@ -4,7 +4,8 @@
   "info": {
     "singularName": "abroad",
     "pluralName": "abroads",
-    "displayName": "Abroad"
+    "displayName": "Abroad",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,16 @@
       "type": "component",
       "repeatable": false,
       "component": "topbanner.topbanner"
+    },
+    "shortintro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shortintro.shortintro"
+    },
+    "notchbanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "notchbanner.notchbanner"
     }
   }
 }

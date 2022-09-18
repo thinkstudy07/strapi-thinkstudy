@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "coursesdetailutils",
+  "info": {
+    "singularName": "coursesdetailutil",
+    "pluralName": "coursesdetailutils",
+    "displayName": "coursesdetailutil"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "introhead": {
+      "type": "component",
+      "repeatable": false,
+      "component": "intro-head.intro-head"
+    }
+  }
+}

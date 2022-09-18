@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "whatwedoutils",
+  "info": {
+    "singularName": "whatwedoutil",
+    "pluralName": "whatwedoutils",
+    "displayName": "whatwedoutil"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "whatwedoutil": {
+      "type": "component",
+      "repeatable": false,
+      "component": "intro-head.intro-head"
+    }
+  }
+}

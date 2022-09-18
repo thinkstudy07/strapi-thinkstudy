@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "teamutils",
+  "info": {
+    "singularName": "teamutil",
+    "pluralName": "teamutils",
+    "displayName": "teamutil"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ourteamutil": {
+      "type": "component",
+      "repeatable": false,
+      "component": "intro-head.intro-head"
+    }
+  }
+}

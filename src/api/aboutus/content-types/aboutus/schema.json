@@ -16,6 +16,16 @@
       "type": "component",
       "repeatable": false,
       "component": "topbanner.topbanner"
+    },
+    "shortintro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shortintro.shortintro"
+    },
+    "tiledGrid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tiled-grid.tiled-grid"
     }
   }
 }

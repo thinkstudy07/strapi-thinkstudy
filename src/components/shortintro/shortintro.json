@@ -10,9 +10,6 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
     "vector": {
       "type": "media",
       "multiple": false,
@@ -23,6 +20,9 @@
         "videos",
         "audios"
       ]
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
