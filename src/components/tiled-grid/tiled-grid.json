@@ -9,13 +9,13 @@
     "title": {
       "type": "string"
     },
-    "description": {
-      "type": "string"
-    },
     "tiledGridItem": {
       "type": "component",
       "repeatable": true,
       "component": "tiledgrid-item.tiledgrid-item"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
