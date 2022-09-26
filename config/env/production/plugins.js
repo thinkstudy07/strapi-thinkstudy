@@ -16,3 +16,9 @@ module.exports = ({ env }) => ({
     },
     // ...
 });
+
+module.exports = () => {
+    return {
+        ckeditor: true
+    }
+}
