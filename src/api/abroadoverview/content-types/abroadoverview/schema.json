@@ -4,7 +4,8 @@
   "info": {
     "singularName": "abroadoverview",
     "pluralName": "abroadoverviews",
-    "displayName": "abroadoverview"
+    "displayName": "abroadoverview",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,18 +16,24 @@
       "type": "string"
     },
     "coverimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "detailedcontents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "detailpagecontent.detailpagecontent"
     }
   }
 }

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_detailpagecontent_detailpagecontents",
+  "info": {
+    "displayName": "detailpagecontent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "abouttitle": {
+      "type": "string"
+    },
+    "aboutdescription": {
+      "type": "richtext"
+    },
+    "cardcontent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "detailedcard.detailedcard"
+    },
+    "plethoracontents": {
+      "type": "richtext"
+    }
+  }
+}
