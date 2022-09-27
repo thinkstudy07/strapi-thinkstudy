@@ -19,6 +19,22 @@
     },
     "plethoracontents": {
       "type": "richtext"
+    },
+    "bannertitle": {
+      "type": "string"
+    },
+    "bannerdescription": {
+      "type": "text"
+    },
+    "bannercover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
