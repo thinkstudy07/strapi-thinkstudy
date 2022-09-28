@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "countryformdatas",
+  "info": {
+    "singularName": "countryformdata",
+    "pluralName": "countryformdatas",
+    "displayName": "Countryformdata"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "mobilenumber": {
+      "type": "string"
+    },
+    "colleges": {
+      "type": "string"
+    },
+    "fromwhichcountry": {
+      "type": "string"
+    }
+  }
+}
