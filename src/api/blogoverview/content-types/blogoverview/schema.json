@@ -49,6 +49,11 @@
     },
     "Readtime": {
       "type": "integer"
+    },
+    "detailedcontents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "detailpagecontent.detailpagecontent"
     }
   }
 }
