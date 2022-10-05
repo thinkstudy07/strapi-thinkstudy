@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blogoverview",
     "pluralName": "blogoverviews",
-    "displayName": "Blogoverview"
+    "displayName": "Blogoverview",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,15 @@
       "type": "string"
     },
     "blogimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "description": {
       "type": "text"
@@ -32,20 +34,26 @@
       "targetField": "title"
     },
     "authorimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "authorName": {
       "type": "string"
     },
     "Readtime": {
       "type": "integer"
+    },
+    "detailedcontents": {
+      "type": "component",
+      "repeatable": false,
+      "component": "detailpagecontent.detailpagecontent"
     }
   }
 }
