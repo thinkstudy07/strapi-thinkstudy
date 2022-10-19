@@ -1,5 +1,8 @@
 module.exports = () => {
     return {
-        ckeditor: true
+        ckeditor: true,
+        'import-export-entries': {
+            enabled: true,
+        },
     }
 }
