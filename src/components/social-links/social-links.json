@@ -1,12 +1,20 @@
 {
   "collectionName": "components_social_links_social_links",
   "info": {
-    "displayName": "socialLinks"
+    "displayName": "socialLinks",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "url": {
       "type": "string"
+    },
+    "icons": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
